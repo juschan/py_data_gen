@@ -24,10 +24,7 @@ class height():
 num_records=10
 
 #Add the fields into list in required order
-fields=[]
-fields.append(gender)
-fields.append(age)
-fields.append(height)
+fields=[gender, age, height]
 
 #Output header
 print(', '.join(map((lambda x:x.name), fields)))
