@@ -11,7 +11,7 @@ Requires Python 3.5
 ###How to run
 In the command line:
 
-    python data_gen.py
+    python data_gen.py >> output.csv
 
 ###How to modify
 - Update num_records for the number of records required;
